@@ -12,12 +12,12 @@ sense.rotation = auto_orientation.get_orientation()
 
 
 COLOR_PROGRESS_BAR_OFF = 0, 0, 0
-COLOR_PROGRESS_BAR_ON = 255, 0, 0
+COLOR_PROGRESS_BAR_ON = 52, 163, 239  # light blue
 
-COLOR_PROFILE_DONE = 0, 255, 0
-COLOR_PROFILE_TODO = 0, 0, 255
+COLOR_PROFILE_DONE = 105, 239, 52
+COLOR_PROFILE_TODO = 201, 217, 191
 
-COLOR_NUMBER = 0, 0, 255
+COLOR_NUMBER = 239, 159, 52  # light orange
 
 nums = [1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1,  # 0 # 0
         0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0,
