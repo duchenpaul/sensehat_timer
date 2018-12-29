@@ -35,6 +35,7 @@ def refresh_led(sleep_time):
 
 @logging_manager.logging_to_file
 def run_profile(profile_list):
+    refresh_led([False, False, False, False])
     for x in range(len(profile_list)):
         prf = profile_list[x]
         logging.info('Sleep profile {}, sleep {}'.format(x, prf))
