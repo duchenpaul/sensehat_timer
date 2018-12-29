@@ -17,7 +17,7 @@ COLOR_PROGRESS_BAR_ON = 52, 163, 239  # light blue
 COLOR_PROFILE_DONE = 105, 239, 52
 COLOR_PROFILE_TODO = 201, 217, 191
 
-COLOR_NUMBER = 239, 159, 52  # light orange
+COLOR_NUMBER = 255, 138, 0  # light orange
 
 nums = [1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1,  # 0 # 0
         0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0,
