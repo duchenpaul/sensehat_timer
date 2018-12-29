@@ -45,4 +45,11 @@ def run_profile(profile_list):
 
 
 if __name__ == '__main__':
-    run_profile(profile)
+    try:
+        show_in_sensehat.clear_led()
+        run_profile(profile)
+    except Exception as e:
+        logging.exception(e)
+    finally:
+        show_in_sensehat.clear_led()
+    
