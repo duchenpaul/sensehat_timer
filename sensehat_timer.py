@@ -1,3 +1,4 @@
+import logging_manager
 import time
 
 import show_in_sensehat
@@ -5,7 +6,6 @@ import logging
 
 import config
 
-import logging_manager
 
 profile = config.sleep_prof_list
 
