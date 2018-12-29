@@ -29,8 +29,8 @@ def refresh_led(sleep_time):
         pct = 1 - i / SEGMENT
         logging.info('Sleep {} {}'.format(show_num, pct))
         refresh_progress_bar(pct, show_num)
-        # time.sleep(sleep_seg * 60)
-        time.sleep(sleep_seg)
+        # time.sleep(sleep_time / SEGMENT * 60)
+        time.sleep(sleep_time / SEGMENT)
 
 
 @logging_manager.logging_to_file
