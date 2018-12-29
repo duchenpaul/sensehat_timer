@@ -10,4 +10,4 @@ for key in sorted(configDict):
     sleep_prof_list.append(configDict[key])
 
 
-print(sleep_prof_list)
+# print(sleep_prof_list)
