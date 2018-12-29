@@ -7,7 +7,7 @@ configDict = toolkit_config.read_config_general(configFile)['PROFILE']
 
 sleep_prof_list = []
 for key in sorted(configDict):
-    sleep_prof_list.append(str(configDict[key]))
+    sleep_prof_list.append(int(configDict[key]))
 
 
 # print(sleep_prof_list)
