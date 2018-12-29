@@ -63,7 +63,7 @@ def show_number(val):
 
 def profile(status_list):
     for i in range(len(status_list)):
-        color = COLOR_PROFILE_DONE if status_list[i] else COLOR_PROFILE_TODO
+        color = COLOR_PROFILE_TODO if status_list[i] else COLOR_PROFILE_DONE
         sense.set_pixel(i, 6, color)
 
 

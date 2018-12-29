@@ -35,12 +35,12 @@ def refresh_led(sleep_time):
 
 @logging_manager.logging_to_file
 def run_profile(profile_list):
-    refresh_profile([False, False, False, False])
+    refresh_profile([True, True, True, True])
     for x in range(len(profile_list)):
         prf = profile_list[x]
         logging.info('Sleep profile {}, sleep {}'.format(x, prf))
         refresh_led(prf)
-        profile_list[x] = True
+        profile_list[x] = False
         refresh_profile(profile_list)
 
 
