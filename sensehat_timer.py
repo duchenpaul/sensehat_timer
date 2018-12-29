@@ -40,7 +40,7 @@ def run_profile(profile_list):
         prf = profile_list[x]
         logging.info('Sleep profile {}, sleep {}'.format(x, prf))
         refresh_led(prf)
-        profile_list[x] = False
+        profile_list[x] = True
         refresh_profile(profile_list)
 
 
