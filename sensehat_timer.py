@@ -5,6 +5,8 @@ import logging
 
 import config
 
+import logging_manager
+
 profile = config.sleep_prof_list
 
 # There is 8 leds in a row
@@ -31,6 +33,7 @@ def refresh_led(sleep_time):
         time.sleep(sleep_seg)
 
 
+@logging_manager.logging_to_file
 def run_profile(profile_list):
     for x in range(len(profile_list)):
         prf = profile_list[x]
